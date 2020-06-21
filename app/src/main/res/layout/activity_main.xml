@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background12"
+    android:alpha="1"
+    >
+
+
+    <TextView
+        android:layout_width="387dp"
+        android:layout_height="wrap_content"
+        android:text="\n\nAuthor  : 092617226 赵健成\nVersion : V0.5" />
+
+    <LinearLayout
+        android:id="@+id/edit_bar"
+        android:layout_width="match_parent"
+        android:layout_height="571dp"
+        android:orientation="horizontal"
+        android:alpha="0.7"
+        >
+
+        <ImageView
+            android:id="@+id/mockexamination"
+            android:layout_width="204dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:onClick="turn2Test"
+            android:src="@drawable/test" />
+
+        <ImageView
+            android:id="@+id/fault"
+            android:layout_width="204dp"
+            android:layout_height="160dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="0dp"
+            android:onClick="turn2errorTest"
+            android:src="@drawable/fault" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="26dp"
+        android:gravity="center"
+        android:text="© 2020 092617226 赵健成 "
+        android:textSize="12sp" />
+
+</LinearLayout>
+
+
+
+
